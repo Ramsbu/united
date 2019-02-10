@@ -1,11 +1,11 @@
 package com.united.automation.basic;
+
 import org.junit.*;
 import com.united.automation.selenium.BrowserLaunch;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 import java.io.IOException;
-
+import static java.lang.Thread.*;
 public class FuelTests extends BrowserLaunch {
 WebDriver driver;
 
@@ -20,18 +20,20 @@ WebDriver driver;
     }
 
     @Test
-    public void testSearch() {
+    public void testSearch() throws InterruptedException {
         driver.findElement(By.xpath("//i[@class='fa fa-search']")).click();
         driver.findElement(By.id("searchStoreAdd")).click();
         driver.findElement(By.id("searchStoreAdd")).clear();
         driver.findElement(By.id("searchStoreAdd")).sendKeys("6025 Padbury");
-        driver.findElement(By.className("btn btn-default store_find_submit")).click();
+        sleep(2000);
+        driver.findElement(By.xpath("//*[@id=\"store_map_submit\"]/div[1]/button")).click();
+        String ActualName = driver.findElement(By.xpath("//div[@class='iw_title']")).getText();
+        Assert.assertEquals("Name doesn't match", "UNITED HEPBURN HEIGHTS (PADBURY)", ActualName);
     }
 
     @Test
     public void tapOnFuelHeader() throws InterruptedException {
     driver.findElement(By.xpath("//*[@id=\"wrapper\"]/div[3]/header/div/nav/ul/li[2]/a")).click();
-    driver.manage().wait(2000);
     String ActualHeader = driver.findElement(By.xpath("//h2[@class='g_title']")).getText();
     Assert.assertEquals("Fuel headers doesn't match", "United Fuels", ActualHeader);
     }

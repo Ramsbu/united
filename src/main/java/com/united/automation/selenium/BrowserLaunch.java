@@ -18,7 +18,8 @@ public class BrowserLaunch {
         PropertyConfigurator.configure(log4jConfPath);
 
         Properties properties = new Properties();
-        String propFileName = "application.properties";
+        String propFileName;
+        propFileName = "application.properties";
         InputStream inputStream = MethodHandles.lookup().lookupClass().getClassLoader().getResourceAsStream(propFileName);
         if (inputStream != null) {
             properties.load(inputStream);
@@ -33,7 +34,6 @@ public class BrowserLaunch {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-      //  driver.get("https://www.unitedpetroleum.com.au");
         driver.get(loadPropertiesfile().getProperty("url"));
         return driver;
     }
