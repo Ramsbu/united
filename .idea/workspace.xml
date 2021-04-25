@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f763ea5-1284-440c-abb7-0f9109fd3d4e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/united/automation/webtests/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/united/automation/selenium/BrowserLaunch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/united/automation/selenium/BrowserLaunch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/united/automation/basic/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/united/automation/basic/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/united/automation/basic/FuelTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/united/automation/basic/FuelTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/united/automation/selenium/BrowserLaunch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/united/automation/selenium/BrowserLaunch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/united/automation/basic/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/united/automation/basic/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/united/automation/basic/FuelTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/united/automation/basic/FuelTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/united/automation/selenium/DataDrivenCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/united/automation/selenium/DataDrivenCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/united/automation/basic/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/united/automation/basic/FuelTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/united/automation/webtests/FuelTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/united/automation/basic/HeaderTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/united/automation/basic/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/united/automation/basic/FuelTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/united/automation/basic/HeaderTests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,56 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/united/automation/selenium/BrowserLaunch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/united/automation/basic/FuelTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/united/automation/basic/HeaderTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/TestData.csv">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/united/automation/webtests/HeaderTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="55" selection-start-column="55" selection-end-column="55" />
+            <state relative-caret-position="111">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="27" selection-end-line="28" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/united/automation/selenium/DataDrivenCSV.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/united/automation/webtests/FuelTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="286">
+              <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,6 +50,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -107,14 +69,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/united/automation/selenium/GSFluentWait.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/united/automation/selenium/FluentDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/united/automation/selenium/FluentElement.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/united/automation/basic/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/united/automation/selenium/DataDrivenExcel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/united/automation/selenium/BrowserLaunch.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/united/automation/basic/FuelTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/united/automation/selenium/DataDrivenCSV.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/united/automation/basic/HeaderTests.java" />
         <option value="$PROJECT_DIR$/src/main/resources/TestData.csv" />
+        <option value="$PROJECT_DIR$/src/test/java/com/united/automation/basic/HeaderTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/united/automation/basic/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/united/automation/apitests/test.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/united/automation/api/ApiImplementation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/united/automation/apitests/GetWeatherDetailsByCity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/united/automation/selenium/DataDrivenCSV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/united/automation/selenium/BrowserLaunch.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/united/automation/webtests/FuelTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/united/automation/webtests/HeaderTests.java" />
       </list>
     </option>
   </component>
@@ -129,7 +96,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="812" />
@@ -142,8 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,21 +138,6 @@
               <item name="united" type="b2602c69:ProjectViewProjectNode" />
               <item name="united" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="united" type="b2602c69:ProjectViewProjectNode" />
-              <item name="united" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="united" type="b2602c69:ProjectViewProjectNode" />
-              <item name="united" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -203,16 +153,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549780506359" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618790205405" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -231,12 +184,12 @@
       <module name="united" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.united.automation.basic.*" />
+          <option name="PATTERN" value="com.united.automation.webtests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.united.automation.basic" />
-      <option name="MAIN_CLASS_NAME" value="com.united.automation.basic.FuelTests" />
+      <option name="PACKAGE_NAME" value="com.united.automation.webtests" />
+      <option name="MAIN_CLASS_NAME" value="com.united.automation.webtests.FuelTests" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -245,12 +198,12 @@
       <module name="united" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.united.automation.basic.*" />
+          <option name="PATTERN" value="com.united.automation.webtests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.united.automation.basic" />
-      <option name="MAIN_CLASS_NAME" value="com.united.automation.basic.FuelTests" />
+      <option name="PACKAGE_NAME" value="com.united.automation.webtests" />
+      <option name="MAIN_CLASS_NAME" value="com.united.automation.webtests.FuelTests" />
       <option name="METHOD_NAME" value="tapOnFuelHeader" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -261,28 +214,30 @@
       <module name="united" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.united.automation.basic.*" />
+          <option name="PATTERN" value="com.united.automation.webtests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.united.automation.basic" />
-      <option name="MAIN_CLASS_NAME" value="com.united.automation.basic.FuelTests" />
+      <option name="PACKAGE_NAME" value="com.united.automation.webtests" />
+      <option name="MAIN_CLASS_NAME" value="com.united.automation.webtests.FuelTests" />
       <option name="METHOD_NAME" value="testSearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeaderTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetWeatherDetailsByCity.testWeatherDetailsByCityName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="united" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.united.automation.basic.*" />
+          <option name="PATTERN" value="com.united.automation.apitests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.united.automation.basic" />
-      <option name="MAIN_CLASS_NAME" value="com.united.automation.basic.HeaderTests" />
+      <option name="PACKAGE_NAME" value="com.united.automation.apitests" />
+      <option name="MAIN_CLASS_NAME" value="com.united.automation.apitests.GetWeatherDetailsByCity" />
+      <option name="METHOD_NAME" value="testWeatherDetailsByCityName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -291,12 +246,12 @@
       <module name="united" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.united.automation.basic.*" />
+          <option name="PATTERN" value="com.united.automation.webtests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.united.automation.basic" />
-      <option name="MAIN_CLASS_NAME" value="com.united.automation.basic.HeaderTests" />
+      <option name="PACKAGE_NAME" value="com.united.automation.webtests" />
+      <option name="MAIN_CLASS_NAME" value="com.united.automation.webtests.HeaderTests" />
       <option name="METHOD_NAME" value="getTestData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -306,9 +261,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.HeaderTests.getTestData" />
-        <item itemvalue="JUnit.HeaderTests" />
         <item itemvalue="JUnit.FuelTests.tapOnFuelHeader" />
         <item itemvalue="JUnit.FuelTests.testSearch" />
+        <item itemvalue="JUnit.GetWeatherDetailsByCity.testWeatherDetailsByCityName" />
         <item itemvalue="JUnit.FuelTests" />
       </list>
     </recent_temporary>
@@ -327,34 +282,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HeaderTests_getTestData - 2019.02.03 at 18h 30m 45s.xml">
+    <history-entry file="HeaderTests_getTestData - 2021.04.18 at 15h 23m 02s.xml">
       <configuration name="HeaderTests.getTestData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HeaderTests_getTestData - 2019.02.09 at 21h 26m 03s.xml">
-      <configuration name="HeaderTests.getTestData" configurationId="JUnit" />
+    <history-entry file="FuelTests_testSearch - 2021.04.18 at 15h 23m 30s.xml">
+      <configuration name="FuelTests.testSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HeaderTests_getTestData - 2019.02.09 at 21h 36m 14s.xml">
-      <configuration name="HeaderTests.getTestData" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FuelTests_tapOnFuelHeader - 2019.02.09 at 21h 36m 53s.xml">
+    <history-entry file="FuelTests_tapOnFuelHeader - 2021.04.18 at 15h 24m 10s.xml">
       <configuration name="FuelTests.tapOnFuelHeader" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HeaderTests_getTestData - 2019.02.09 at 21h 41m 16s.xml">
+    <history-entry file="FuelTests_testSearch - 2021.04.18 at 16h 40m 41s.xml">
+      <configuration name="FuelTests.testSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FuelTests_tapOnFuelHeader - 2021.04.18 at 16h 44m 28s.xml">
+      <configuration name="FuelTests.tapOnFuelHeader" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FuelTests_tapOnFuelHeader - 2021.04.18 at 16h 46m 32s.xml">
+      <configuration name="FuelTests.tapOnFuelHeader" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeaderTests_getTestData - 2021.04.18 at 16h 50m 28s.xml">
       <configuration name="HeaderTests.getTestData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HeaderTests_getTestData - 2019.02.09 at 22h 13m 22s.xml">
+    <history-entry file="HeaderTests_getTestData - 2021.04.18 at 16h 52m 43s.xml">
       <configuration name="HeaderTests.getTestData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HeaderTests_getTestData - 2019.02.09 at 22h 14m 29s.xml">
+    <history-entry file="HeaderTests_getTestData - 2021.04.18 at 16h 54m 19s.xml">
       <configuration name="HeaderTests.getTestData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HeaderTests_getTestData - 2019.02.09 at 22h 14m 49s.xml">
-      <configuration name="HeaderTests.getTestData" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HeaderTests - 2019.02.09 at 22h 21m 43s.xml">
-      <configuration name="HeaderTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HeaderTests_getTestData - 2019.02.09 at 22h 24m 02s.xml">
+    <history-entry file="HeaderTests_getTestData - 2021.04.18 at 16h 56m 28s.xml">
       <configuration name="HeaderTests.getTestData" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -369,9 +324,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20100144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -379,21 +333,21 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.62777776" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3611111" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32916668" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42717087" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.359944" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32916668" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.40138888" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.359944" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32916668" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.14583333" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.31527779" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.18454936" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.18454936" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -452,13 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="40" lean-forward="true" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/united/automation/selenium/FluentWait.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/united/automation/selenium/WaitType.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/united/automation/selenium/WaitCondition.java" />
@@ -472,52 +419,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="61" column="28" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/united/automation/selenium/DataDrivenExcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="48" column="97" selection-start-line="48" selection-start-column="97" selection-end-line="48" selection-end-column="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#870#1063#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/united/automation/webtests/test1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/united/automation/api/tt.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/united/automation/apitests/test.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="205" selection-start-line="205" selection-end-line="205" />
+        <state relative-caret-position="338">
+          <caret line="240" selection-start-line="240" selection-end-line="240" />
+          <folding>
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#5951#6086#0" expanded="true" />
+            <element signature="e#6085#6086#0" expanded="true" />
+            <element signature="e#6484#6648#0" expanded="true" />
+            <element signature="e#6647#6648#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="220">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
@@ -528,53 +451,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/united/automation/selenium/BrowserLaunch.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#870#1063#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/united/automation/basic/BaseTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        <state relative-caret-position="240">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="786" selection-start-line="786" selection-end-line="786" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/united/automation/api/ApiImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/TestData.numbers">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/united/automation/basic/FuelTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/united/automation/selenium/DataDrivenCSV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/united/automation/basic/HeaderTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="40" lean-forward="true" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -582,6 +504,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="55" selection-start-column="55" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/united/automation/selenium/DataDrivenCSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/united/automation/selenium/DataDrivenExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="97" selection-start-line="48" selection-start-column="97" selection-end-line="48" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/united/automation/webtests/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/united/automation/selenium/BrowserLaunch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/united/automation/apitests/GetWeatherDetailsByCity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/united/automation/webtests/FuelTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/united/automation/webtests/HeaderTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="27" selection-end-line="28" selection-end-column="9" />
         </state>
       </provider>
     </entry>

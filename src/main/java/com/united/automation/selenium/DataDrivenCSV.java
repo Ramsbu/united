@@ -10,7 +10,7 @@ import java.util.List;
 
 public class DataDrivenCSV {
 
-    public ArrayList<String> getData(String testcaseName) throws IOException {
+    public static ArrayList<String> getData(String testcaseName) throws IOException {
         ArrayList data = new ArrayList();
         CSVReader reader = new CSVReader(new FileReader("/Users/charan/Documents/Java_projects/united/src/main/resources/TestData.csv"));
         List<String[]> li = reader.readAll();

@@ -1,4 +1,4 @@
-package com.united.automation.basic;
+package com.united.automation.webtests;
 
 import org.junit.*;
 import com.united.automation.selenium.BrowserLaunch;
@@ -33,8 +33,10 @@ WebDriver driver;
 
     @Test
     public void tapOnFuelHeader() throws InterruptedException {
-    driver.findElement(By.xpath("//*[@id=\"wrapper\"]/div[3]/header/div/nav/ul/li[2]/a")).click();
+    driver.findElement(By.xpath("//*[@id=\"wrapper\"]/div[3]/header/div[2]/nav/ul/li[3]/a")).click();
     String ActualHeader = driver.findElement(By.xpath("//h2[@class='g_title']")).getText();
     Assert.assertEquals("Fuel headers doesn't match", "United Fuels", ActualHeader);
     }
+
+    //*[@id="wrapper"]/div[3]/header/div[2]/div[1]/div[2]/div/a[1]/img
 }
