@@ -45,8 +45,6 @@ public class HeaderTests extends BrowserLaunch {
         Assert.assertEquals("Actual value doesn't match with expected", data.get(5), ActualPie);
        //Assert.assertEquals("Actual value doesn't match with expected", data.get(6), ActualRefinery);
         Assert.assertEquals("Actual value doesn't match with expected", data.get(7), ActualAbout);
-
-
     }
 
 }
